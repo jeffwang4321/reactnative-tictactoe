@@ -7,6 +7,8 @@
   <img src="https://user-images.githubusercontent.com/39638948/195270629-722d889d-f243-4101-be43-c7354adbc688.png" width="200" height="420" />
 </p>
 
+- App Store: https://play.google.com/store/apps/details?id=com.jeffwang4321.tictactoe
+
 - Developed a minimalistic and easy to play Tic Tac Toe game using React Native and Expo
 
 - Focused on state manipulation and hooks
