@@ -15,17 +15,6 @@ export default function App() {
 
   const [menuModal, setMenuModal] = useState(true);
   const [endModal, setEndModal] = useState(false);
-  
-
-  // const handleURLPress = async () => {
-  //   let url = "https://jeffwang4321.github.io/OneBedroomStudios/";
-  //   const supported = await Linking.canOpenURL(url);
-  //   if (supported) {
-  //     await Linking.openURL(url);
-  //   } else {
-  //     alert("Can not open URL: " + url);
-  //   }
-  // }
 
   const handleMove = (index) => {
     let tempBoard = JSON.parse(JSON.stringify(board));
@@ -147,9 +136,6 @@ export default function App() {
           <TouchableOpacity style={styles.menuButton} onPress={() => {setMenuModal(false);}}>
             <Text style={[styles.whiteText, {fontSize: 25}]}><Icon2 name="user-friends" style={[styles.blueText, {fontSize: 30}]}/>  Multiplayer</Text>
           </TouchableOpacity>
-          {/* <TouchableOpacity style={styles.menuButton} onPress={() => handleURLPress()}>
-            <Text style={[styles.whiteText, {fontSize: 25}]}><Icon2 name="info-circle" style={[styles.blueText, {fontSize: 25}]}/>  About</Text>
-          </TouchableOpacity> */}
         </View>
       </Modal>
 
